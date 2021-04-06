@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="2dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/logo_istloja"></ImageView>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:padding="1dp">
+
+            <Button
+                android:id="@+id/btn_inicio"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/ovaloazul"
+                android:padding="10dp"
+                android:text="Inicio"
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/institucion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/ovalomarino"
+                android:padding="10dp"
+                android:text="Institucion"
+                android:textColor="#000"
+                android:textSize="16dp" />
+            <Button
+                android:id="@+id/mapa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ubicanos"
+                android:background="#5783bc"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
+                android:textSize="16dp"/>
+
+            <Button
+                android:id="@+id/realidad_aumentada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Camara"
+                android:textColor="#FFFFFF"
+                android:background="#5783bc"
+                android:layout_margin="2dp"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btn_ayuda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#5783bc"
+                android:padding="10dp"
+                android:text="Ayuda"
+                android:layout_margin="2dp"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:background="#77B9D2F1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--Software-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="308dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Desarrollo de software"
+                        android:textColor="#000000"
+                        android:textSize="19dp"
+                        android:textStyle="bold"></TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/software" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="7dp"
+                        android:textColor="#000000"
+                        android:text="PERFIL DE EGRESO"
+                        android:textSize="15dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="8sp"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:text="- Realiza programaciones de complejidad moderada y moderada-avanzada."
+                        android:textSize="15dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="8sp"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:text="- Realiza la documentación de software."
+                        android:textSize="15dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="8sp"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:text="- Realiza soporte y mantenimiento de software."
+                        android:textSize="15dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="8sp"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:text="- Realiza la documentación de software."
+                        android:textSize="15dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="8sp"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:text=" Conocimientos en programación de software y lenguajes de programación."
+                        android:textSize="15dp"></TextView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--Contabilidad-->
+            <LinearLayout
+                android:layout_width="308dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Contabilidad"
+                    android:textSize="19dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/contabilidad" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="7dp"
+                    android:text="PERFIL DE EGRESO"
+                    android:textColor="#000000"
+                    android:textSize="15dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="8sp"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:text="- Registrar en forma clara y precisa, las operaciones de ingresos y egresos de las actividades realizadas en un ente económico, proporcionando información veraz, oportuna y confiable en cualquier momento, mediante la normativa contable vigente."
+                    android:textSize="15dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="8sp"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:text="- Elaborar los Estados financieros, basados en la normativa contable y laboral vigente, que permita la toma de decisiones oportuna, en el ámbito económico de la empresa, fundamentados en la ética profesional."
+                    android:textSize="15dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="8sp"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:text ="- Establecer los costos de producción, basados en análisis de valor y uso adecuado de las TICS para conocer la rentabilidad del sector industrial, y productivo."
+                    android:textSize="15dp"></TextView>
+            </LinearLayout>
+            <!--electricidad-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="308dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Electricidad"
+                        android:textSize="19dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"></TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/electricidad" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="7dp"
+                        android:text="PERFIL DE EGRESO"
+                        android:textColor="#000000"
+                        android:textSize="15dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="8sp"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:text="- Interpretar planos y elaborar documentación técnica para la realización de instalaciones eléctricas en baja y media tensión usando diferentes equipos de medición, aplicando normas técnicas, de seguridad y cuidado del medio ambiente."
+                        android:textSize="15dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="8sp"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:text="- Operar y manejar equipos de medición eléctrica para los diferentes tipos de instalaciones."
+                        android:textSize="15dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="8sp"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:text="- Caracterizar y realizar cálculos en los sistemas eléctricos de potencia."
+                        android:textSize="15dp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--Alimentos-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="308dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Procesamiento de alimentos"
+                        android:textSize="19dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"></TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/alimentos" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="7dp"
+                        android:text="PERFIL DE EGRESO"
+                        android:textColor="#000000"
+                        android:textSize="15dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="8sp"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:text="- Ejecutar, supervisar y evaluar los diferentes procesos productivos de las empresas que participan en la industria alimentaria."
+                        android:textSize="15dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="8sp"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:text="- Desarrollar e innovar productos alimenticios ajustados a los estándares de mercado."
+                        android:textSize="15dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="8sp"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:text="- Evaluar la calidad de los alimentos y productos alimenticios a través de análisis sensoriales, físico – químicos y microbiológicos."
+                        android:textSize="15dp"></TextView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--mecanica-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="308dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Mecanica automotriz"
+                        android:textSize="19dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"></TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/mecanica" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="7dp"
+                        android:text="PERFIL DE EGRESO"
+                        android:textColor="#000000"
+                        android:textSize="15dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="8sp"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:text="- Aplica normas de sistemas de calidad y utiliza catálogos de mantenimiento y repuestos automotrices."
+                        android:textSize="15dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="8sp"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:text="- Planifica, gestiona, supervisa, innova y optimiza los procesos de mantenimiento, reparación y adaptación de sistemas automotrices convencionales, electrónicos e híbridos."
+                        android:textSize="15dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="8sp"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:text="- Utiliza herramientas y equipos de comprobación electrónica."
+                        android:textSize="15dp"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

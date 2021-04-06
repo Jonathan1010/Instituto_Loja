@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="121dp"
+                android:layout_height="112dp"
+                android:layout_gravity="center"
+                android:background="#FF5722"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inicio"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="7dp"
+                android:textColor="#000"
+                android:textSize="18dp">
+
+            </TextView>
+            />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="121dp"
+                android:layout_height="112dp"
+                android:background="#4CAF50"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Carreras"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="18dp">
+
+            </TextView>
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <ImageButton
+
+                android:layout_width="121dp"
+                android:layout_height="112dp"
+                android:background="#00BCD4"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contactanos"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="7dp"
+                android:textColor="#000000"
+                android:textSize="18dp">
+
+            </TextView>
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="121dp"
+                android:layout_height="112dp"
+                android:layout_gravity="center"
+                android:background="#FF5722"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ubicacion"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="7dp"
+                android:textColor="#000"
+                android:textSize="18dp">
+
+            </TextView>
+            />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="121dp"
+                android:layout_height="112dp"
+                android:background="#4CAF50"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Docentes"
+                android:gravity="center"
+                android:layout_marginTop="7dp"
+                android:textColor="#000000"
+                android:textSize="18dp">
+
+            </TextView>
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <ImageButton
+
+                android:layout_width="121dp"
+                android:layout_height="112dp"
+                android:background="#00BCD4"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sitio web"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp">
+
+            </TextView>
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/degradado"
+    tools:context=".docenteselectricidad">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="2dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/logo_istloja"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:layout_margin="10px"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Docentes De La Carrera De Electricidad"></TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lstDatos"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_margin="10px"
+        android:dividerHeight="7dp"
+        android:padding="12dp"
+        android:scrollbars="vertical">
+
+    </ListView>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_marginEnd="1dp"
+            android:padding="1dp">
+
+            <Button
+                android:id="@+id/volvermenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/ovalomarino"
+                android:textColor="#000"
+                android:text="Regresar"
+                android:layout_margin="2dp"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/softwarelistas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="TS Software"
+                android:background="@drawable/ovalomarino"
+                android:textColor="#000"
+                android:layout_margin="2dp"
+                android:textSize="16dp" />
+            <Button
+                android:id="@+id/listaalimentos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TS Alimentos"
+                android:padding="10dp"
+                android:background="@drawable/ovalomarino"
+                android:textColor="#000"
+                android:layout_margin="2dp"
+                android:textSize="16dp"/>
+
+            <Button
+                android:id="@+id/listaelectricidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TS Electricidad"
+                android:padding="10dp"
+                android:background="@drawable/ovaloazul"
+                android:textColor="#000"
+                android:layout_margin="2dp"
+                android:textSize="16dp"/>
+            <Button
+                android:id="@+id/listacontabilidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TS Contabilidad"
+                android:padding="10dp"
+                android:background="@drawable/ovalomarino"
+                android:textColor="#000"
+                android:layout_margin="2dp"
+                android:textSize="16dp"/>
+
+            <Button
+                android:id="@+id/mecanicalistas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="TS Mecanica Automotriz"
+                android:layout_margin="2dp"
+                android:textSize="16dp"
+                android:background="@drawable/ovalomarino"
+                android:textColor="#000"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
